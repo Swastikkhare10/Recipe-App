@@ -1,5 +1,5 @@
 import React from 'react'
-import {ImSpoonKnife} from 'react-icons/im';
+// import {ImSpoonKnife} from 'react-icons/im';
 
 function Header() {
   return (
@@ -7,9 +7,9 @@ function Header() {
         <div className='layer'>
         <div className="container">
           <nav className='logo-wrapper'>
-            <div className='logo'>
+            {/* <div className='logo'>
               <ImSpoonKnife className='brand' />
-            </div>
+            </div> */}
           </nav>
           <div className='header-text' >
             <h1>Recipe App</h1>
